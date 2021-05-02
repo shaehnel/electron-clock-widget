@@ -10,11 +10,11 @@ function createWindow () {
     frame: false,
     resizable: true,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'src/app/eletron-preload.js')
     }
   })
+  win.loadFile('src/app/index.html')
 
-  win.loadFile('index.html')
 }
 
 app.whenReady().then(() => {

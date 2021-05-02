@@ -1,0 +1,8 @@
+{
+    "dest": "dist/installers/",
+    "src": "dist/clock-win32-x64",
+    "icon": "resources/Icon.ico",
+    "tags": [
+      "Utility"
+    ]
+  }
