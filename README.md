@@ -14,4 +14,7 @@ https://www.electronjs.org/docs/tutorial/quick-start#create-a-basic-application
 
 ## Create binary
 
-    npm run make
+    npm run build
+    npm run setup
+
+Find the installer at `dist/installers`.
